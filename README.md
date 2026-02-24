@@ -1,6 +1,6 @@
 # SubTracker 📱
 
-A clean and minimal subscription tracker app for iOS and macOS, built with SwiftUI and SwiftData.
+A clean and minimal subscription tracker app for iOS and macOS, built with SwiftUI and SwiftData as a personal project to explore mobile development.
 
 ## Features
 - Track all your subscriptions in one place
