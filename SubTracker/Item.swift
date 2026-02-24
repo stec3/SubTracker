@@ -1,18 +1,17 @@
-//
-//  Item.swift
-//  SubTracker
-//
-//  Created by Stefano Carta on 24/02/26.
-//
-
 import Foundation
 import SwiftData
 
 @Model
-final class Item {
-    var timestamp: Date
+final class Subscription {
+    var name: String
+    var price: Double
+    var cycle: String
+    var renewalDate: Date
     
-    init(timestamp: Date) {
-        self.timestamp = timestamp
+    init(name: String, price: Double, cycle: String, renewalDate: Date) {
+        self.name = name
+        self.price = price
+        self.cycle = cycle
+        self.renewalDate = renewalDate
     }
 }
